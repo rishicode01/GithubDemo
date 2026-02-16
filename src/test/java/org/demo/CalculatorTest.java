@@ -19,4 +19,11 @@ class CalculatorTest {
         Calculator calc = new Calculator();
         assertEquals(1, calc.subtract(3, 2));
     }
+
+    // Test case for multiply method
+    @Test
+    void testMultiply() {
+        Calculator calc = new Calculator();
+        assertEquals(12, calc.multiply(6, 2));
+    }
 }

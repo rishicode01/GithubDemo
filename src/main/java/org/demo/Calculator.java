@@ -12,4 +12,9 @@ public class Calculator {
     public int subtract(int a, int b) {
         return a - b;
     }
+
+    // Method to multiply two numbers
+    public int multiply(int a, int b) {
+        return a * b;
+    }
 }
